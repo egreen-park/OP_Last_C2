@@ -30,8 +30,10 @@ def long_control_state_trans(CP, active, long_control_state, v_ego, v_target,
     long_control_state = LongCtrlState.off
 
   else:
-    if long_control_state in (LongCtrlState.off, LongCtrlState.pid):
+    if long_control_state == LongCtrlState.off:
       long_control_state = LongCtrlState.pid
+
+    elif long_control_state == LongCtrlState.pid:
       if stopping_condition:
         long_control_state = LongCtrlState.stopping
 
