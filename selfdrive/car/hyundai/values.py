@@ -9,8 +9,8 @@ class CarControllerParams:
 
   def __init__(self, CP):
     self.STEER_MAX = 409   # 409 is the max, 384 is stock
-    self.STEER_DELTA_UP = 4  #3 ¿´À½ ÂÉ±Ý´õ »¡¸® ÇÚµé µ¹·¯ÁÖ·Á°í
-    self.STEER_DELTA_DOWN = 5 #4 ¿´À½ ÂÉ±Ý´õ »¡¸® ÇÚµé ÇÃ¾îÁÖ·Á°í
+    self.STEER_DELTA_UP = 3  #3 ï¿½ï¿½ï¿½ï¿½ ï¿½É±Ý´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+    self.STEER_DELTA_DOWN = 3 #4 ï¿½ï¿½ï¿½ï¿½ ï¿½É±Ý´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ ï¿½Ã¾ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
     self.STEER_DRIVER_ALLOWANCE = 50
     self.STEER_DRIVER_MULTIPLIER = 2
     self.STEER_DRIVER_FACTOR = 1
