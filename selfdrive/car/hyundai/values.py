@@ -8,9 +8,9 @@ class CarControllerParams:
   ACCEL_MIN = -3.7
 
   def __init__(self, CP):
-    self.STEER_MAX = 409   # 409 is the max, 384 is stock
-    self.STEER_DELTA_UP = 3  #3 ���� �ɱݴ� ���� �ڵ� �����ַ���
-    self.STEER_DELTA_DOWN = 3 #4 ���� �ɱݴ� ���� �ڵ� �þ��ַ���
+    self.STEER_MAX = 384   # 409 is the max, 384 is stock
+    self.STEER_DELTA_UP = 2  #3
+    self.STEER_DELTA_DOWN = 5 #4
     self.STEER_DRIVER_ALLOWANCE = 50
     self.STEER_DRIVER_MULTIPLIER = 2
     self.STEER_DRIVER_FACTOR = 1
